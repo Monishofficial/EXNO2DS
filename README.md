@@ -85,10 +85,13 @@ df.boxplot(column="Age",by="Survived")
 ```
 sns.scatterplot(x=df["Age"],y=df["Fare"])
 ```
-![Uploading Screenshot 2025-03-27 114621.png…]()
+![Screenshot 2025-03-27 114621](https://github.com/user-attachments/assets/0d953348-2191-4fdf-a06a-79c32a12413d)
+
 ```
 sns.jointplot(x="Age",y="Fare",data=df)
 ```
+![Screenshot 2025-03-27 114727](https://github.com/user-attachments/assets/bfe06610-2f60-4226-bd56-99cc61cb0e31)
+
 ```
 fig, ax1 = plt.subplots(figsize=(8,5))
 plt = sns.boxplot(ax=ax1,x='Pclass',y='Age',hue='Gender',data=df)
