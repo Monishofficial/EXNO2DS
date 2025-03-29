@@ -97,38 +97,20 @@ plt = sns.boxplot(ax=ax1,x='Pclass',y='Age',hue='Gender',data=df)
 ```
 sns.catplot(data=df,col="Survived",x="Gender",hue="Pclass",kind="count")
 ```
+![Screenshot 2025-03-29 102636](https://github.com/user-attachments/assets/0c4882b8-3e2e-4de5-a9e8-8413bed35348)
 
 ```
 numerical_df = df.select_dtypes(include=['number'])
 corr = numerical_df.corr()
 sns.heatmap(corr, annot=True)
 ```
+![Screenshot 2025-03-29 102644](https://github.com/user-attachments/assets/10d4c85b-c444-4769-9d85-f31e66b9e123)
 
 ```
 sns.pairplot(df)
 ```
+![Screenshot 2025-03-29 102709](https://github.com/user-attachments/assets/8aa740a8-e6fa-4b57-ba1a-a8c1ecc26033)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       
 
 # RESULT
 We have performed Exploratory Data Analysis on the given data set successfully.
